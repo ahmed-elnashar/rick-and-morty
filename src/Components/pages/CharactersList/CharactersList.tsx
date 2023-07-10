@@ -13,7 +13,6 @@ const CharactersList: React.FC = ({}) => {
   } = useCharacter();
 
   const { data, loading, error, fetchMore, called } = charactersSearchByName();
-  console.log(data);
   if (error) throw error;
 
   const loadMoreCharacters = () => {
