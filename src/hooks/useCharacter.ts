@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { list, get, searchByName } from '../services/character';
 import { setSearchText } from '../store/ducks/character';
 import { Entities } from '../constants/enums';
-import { Character, CharacterResponse, CharactersResponse } from '../model/api';
+import { CharacterResponse, CharactersResponse } from '../model/api';
 import { useLazyQuery, useQuery } from '@apollo/client';
 import {
   GET_CHARACTER,

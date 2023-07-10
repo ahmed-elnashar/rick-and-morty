@@ -12,7 +12,6 @@ This project was generated with [Vite CLI](https://vitejs.dev/guide/cli.html).
      |-- graphql
      |-- hooks
      |-- model
-     |-- services
      |-- store
      |-- tests
      |-- assets
